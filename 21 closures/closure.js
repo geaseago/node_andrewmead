@@ -17,5 +17,3 @@ function greetMaker (name) {
 }
 
 greetMaker('Andrew')();
-
-c
