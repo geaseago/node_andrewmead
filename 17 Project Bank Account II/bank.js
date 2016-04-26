@@ -38,19 +38,5 @@ var geoffsAccount = createAccount(
 	 username: 'geoff01'}
 );
 
-//deposit(geoffsAccount,100);
-//console.log(geoffsAccount);
-
-console.log(getAccount('geoff01'));	
-console.log(geoffsAccount);
-console.log(getAccount('geoff02'));	
-deposit(geoffsAccount,100);
-withdraw(geoffsAccount,99);
-createAccount({balance: 999, username: 'peff01'});
-console.log(getAccount('peff01'));
-
-
-
-
 
 
