@@ -4,12 +4,13 @@
   "description": "Manage your passwords locally",
   "main": "index.js",
   "scripts": {
-    "test":  "echo \"Error: no test specified\" && exit 1",
-		"start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Geoffyboy",
   "license": "ISC",
   "dependencies": {
+    "crypto-js": "^3.1.5",
     "node-persist": "0.0.6"
   }
 }
